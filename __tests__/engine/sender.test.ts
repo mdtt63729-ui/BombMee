@@ -1,1 +1,11 @@
-aW1wb3J0IHsgc2VuZE1vY2tFdmVudCB9IGZyb20gJy4uLy4uL3NyYy9lbmdpbmUvc2VuZGVyJzsKCmRlc2NyaWJlKCdzZW5kTW9ja0V2ZW50JywgKCkgPT4gewogIGl0KCdyZXR1cm5zIGRldGVybWluaXN0aWMgbG9jYWwgb3V0Y29tZXMnLCBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBleHBlY3Qoc2VuZE1vY2tFdmVudCgxKSkucmVzb2x2ZXMudG9CZSgnc3VjY2VzcycpOwogICAgYXdhaXQgZXhwZWN0KHNlbmRNb2NrRXZlbnQoNSkpLnJlc29sdmVzLnRvQmUoJ2Vycm9yJyk7CiAgfSk7CiAgaXQoJ3JlamVjdHMgaW52YWxpZCByb3VuZHMnLCBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBleHBlY3Qoc2VuZE1vY2tFdmVudCgwKSkucmVqZWN0cy50b1Rocm93KCdSb3VuZCBtdXN0IGJlIGEgcG9zaXRpdmUgaW50ZWdlci4nKTsKICB9KTsKfSk7Cg==
+import { sendMockEvent } from '../../src/engine/sender';
+
+describe('sendMockEvent', () => {
+  it('returns deterministic local outcomes', async () => {
+    await expect(sendMockEvent(1)).resolves.toBe('success');
+    await expect(sendMockEvent(5)).resolves.toBe('error');
+  });
+  it('rejects invalid rounds', async () => {
+    await expect(sendMockEvent(0)).rejects.toThrow('Round must be a positive integer.');
+  });
+});

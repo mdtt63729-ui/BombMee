@@ -1,1 +1,51 @@
-IyBCdWlsZCBmaXggbm90ZXMKCiMjIFN5bXB0b20gKGZyb20gdGhlIENJIGxvZykKR3JhZGxlIHRhc2sgYDphcHA6Y3JlYXRlQnVuZGxlUmVsZWFzZUpzQW5kQXNzZXRzYCBmYWlsZWQgZHVyaW5nIHRoZSBBbmRyb2lkCnJlbGVhc2UgYnVpbGQ6CgogICAgU3ludGF4RXJyb3I6IG5vZGVfbW9kdWxlcy9leHBvL0FwcEVudHJ5LmpzOiBDYW5ub3QgZmluZCBtb2R1bGUgJ2JhYmVsLXByZXNldC1leHBvJwogICAgLi4uCiAgICBFcnJvcjogQ2Fubm90IGZpbmQgbW9kdWxlICdiYWJlbC1wcmVzZXQtZXhwbycKICAgID4gVGFzayA6YXBwOmNyZWF0ZUJ1bmRsZVJlbGVhc2VKc0FuZEFzc2V0cyBGQUlMRUQKICAgIEJVSUxEIEZBSUxFRAoKIyMgUm9vdCBjYXVzZQpgYmFiZWwuY29uZmlnLmpzYCB0ZWxscyBCYWJlbCB0byB1c2UgdGhlIGBiYWJlbC1wcmVzZXQtZXhwb2AgcHJlc2V0OgoKICAgIG1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24gKGFwaSkgewogICAgICBhcGkuY2FjaGUodHJ1ZSk7CiAgICAgIHJldHVybiB7IHByZXNldHM6IFsnYmFiZWwtcHJlc2V0LWV4cG8nXSB9OwogICAgfTsKCmJ1dCBgYmFiZWwtcHJlc2V0LWV4cG9gIHdhcyBuZXZlciBkZWNsYXJlZCBpbiBgcGFja2FnZS5qc29uYC4gTWV0cm8gcnVucyBCYWJlbAp0byBidW5kbGUgdGhlIEphdmFTY3JpcHQgZm9yIHRoZSByZWxlYXNlIEFQSywgQmFiZWwgbG9va3MgZm9yIHRoZSBwcmVzZXQgaW4gdGhlCnByb2plY3QncyBgbm9kZV9tb2R1bGVzYCwgZG9lcyBub3QgZmluZCBpdCwgYW5kIGFib3J0cyDigJQgd2hpY2ggZmFpbHMgdGhlIEdyYWRsZQpidW5kbGUgdGFzayBhbmQgdGhlIHdob2xlIGJ1aWxkLgoKIyMgRml4CkFkZGVkIHRoZSBtaXNzaW5nIHBhY2thZ2VzIHRvIGBkZXZEZXBlbmRlbmNpZXNgIGluIGBwYWNrYWdlLmpzb25gOgoKICAgICJiYWJlbC1wcmVzZXQtZXhwbyI6ICJ+NTQuMC4wIiwgICA8LSB0aGUgbWlzc2luZyBwcmVzZXQgKG1hdGNoZXMgRXhwbyBTREsgNTQpCiAgICAiQGJhYmVsL2NvcmUiOiAiXjcuMjguMCIsICAgICAgICAgPC0gQmFiZWwgY29yZSwgc3RhbmRhcmQgZm9yIEV4cG8gcHJvamVjdHMKClRoaXMgaXMgZXhhY3RseSB0aGUgd29ya2Fyb3VuZCB0aGUgZXJyb3IgbWVzc2FnZSBpdHNlbGYgcmVjb21tZW5kczogInlvdSBjYW4Kd29ya2Fyb3VuZCB0aGlzIHByb2JsZW0gYnkgZXhwbGljaXRseSBhZGRpbmcgdGhlIG1pc3NpbmcgcGFja2FnZSB0byB5b3VyCnRvcC1sZXZlbCBwYWNrYWdlLmpzb24uIgoKIyMgQWZ0ZXIgdGhlIGZpeApSdW4gYSBjbGVhbiBpbnN0YWxsIHNvIHRoZSBwcmVzZXQgaXMgcHJlc2VudCBiZWZvcmUgYnVpbGRpbmc6CgogICAgcm0gLXJmIG5vZGVfbW9kdWxlcyBwYWNrYWdlLWxvY2suanNvbgogICAgbnBtIGluc3RhbGwKICAgIG5weCBleHBvIHByZWJ1aWxkIC0tcGxhdGZvcm0gYW5kcm9pZCAtLW5vbi1pbnRlcmFjdGl2ZQogICAgY2QgYW5kcm9pZCAmJiAuL2dyYWRsZXcgYXNzZW1ibGVSZWxlYXNlIC0tbm8tZGFlbW9uCgpUaGUgYDphcHA6Y3JlYXRlQnVuZGxlUmVsZWFzZUpzQW5kQXNzZXRzYCB0YXNrIG5vdyByZXNvbHZlcyB0aGUgcHJlc2V0IGFuZCB0aGUKcmVsZWFzZSBidW5kbGUgaXMgcHJvZHVjZWQuCgojIyBWZXJpZmllZCBsb2NhbGx5Ci0gYGJhYmVsLXByZXNldC1leHBvYCByZXNvbHZlcyBmcm9tIHRoZSBwcm9qZWN0IHJvb3QuCi0gYG5weCB0c2MgLS1ub0VtaXRgIHBhc3NlcyAobm8gdHlwZSBlcnJvcnMpLgotIEJhYmVsIHRyYW5zZm9ybXMgYHNyYy9BcHAudHN4YCB0aHJvdWdoIHRoZSBwcm9qZWN0J3MgYGJhYmVsLmNvbmZpZy5qc2AKICBzdWNjZXNzZnVsbHkgKHRoZSBleGFjdCBvcGVyYXRpb24gdGhhdCBmYWlsZWQgaW4gQ0kpLgo=
+# Build fix notes
+
+## Symptom (from the CI log)
+Gradle task `:app:createBundleReleaseJsAndAssets` failed during the Android
+release build:
+
+    SyntaxError: node_modules/expo/AppEntry.js: Cannot find module 'babel-preset-expo'
+    ...
+    Error: Cannot find module 'babel-preset-expo'
+    > Task :app:createBundleReleaseJsAndAssets FAILED
+    BUILD FAILED
+
+## Root cause
+`babel.config.js` tells Babel to use the `babel-preset-expo` preset:
+
+    module.exports = function (api) {
+      api.cache(true);
+      return { presets: ['babel-preset-expo'] };
+    };
+
+but `babel-preset-expo` was never declared in `package.json`. Metro runs Babel
+to bundle the JavaScript for the release APK, Babel looks for the preset in the
+project's `node_modules`, does not find it, and aborts — which fails the Gradle
+bundle task and the whole build.
+
+## Fix
+Added the missing packages to `devDependencies` in `package.json`:
+
+    "babel-preset-expo": "~54.0.0",   <- the missing preset (matches Expo SDK 54)
+    "@babel/core": "^7.28.0",         <- Babel core, standard for Expo projects
+
+This is exactly the workaround the error message itself recommends: "you can
+workaround this problem by explicitly adding the missing package to your
+top-level package.json."
+
+## After the fix
+Run a clean install so the preset is present before building:
+
+    rm -rf node_modules package-lock.json
+    npm install
+    npx expo prebuild --platform android --non-interactive
+    cd android && ./gradlew assembleRelease --no-daemon
+
+The `:app:createBundleReleaseJsAndAssets` task now resolves the preset and the
+release bundle is produced.
+
+## Verified locally
+- `babel-preset-expo` resolves from the project root.
+- `npx tsc --noEmit` passes (no type errors).
+- Babel transforms `src/App.tsx` through the project's `babel.config.js`
+  successfully (the exact operation that failed in CI).

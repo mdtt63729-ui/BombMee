@@ -1,1 +1,30 @@
-aW1wb3J0IHsgcnVuU2ltdWxhdGlvbiB9IGZyb20gJy4uLy4uL3NyYy9lbmdpbmUvYm9tYmVyJzsKaW1wb3J0IHR5cGUgeyBEZW1vTG9nLCBKb2JSZWNvcmQgfSBmcm9tICcuLi8uLi9zcmMvZW5naW5lL3R5cGVzJzsKCmRlc2NyaWJlKCdydW5TaW11bGF0aW9uJywgKCkgPT4gewogIGl0KCdyZWNvcmRzIHNpbXVsYXRlZCBzdWNjZXNzIGFuZCBlcnJvciBvdXRjb21lcyB3aXRob3V0IG5ldHdvcmsgdXNlJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgbG9nczogRGVtb0xvZ1tdID0gW107IGxldCBmaW5hbDogSm9iUmVjb3JkIHwgdW5kZWZpbmVkOwogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcnVuU2ltdWxhdGlvbih7IGxhYmVsOiAnVGVzdCcsIHJvdW5kczogNSwgaW50ZXJ2YWxNczogMTAwIH0sIHsKICAgICAgb25Mb2c6IGl0ZW0gPT4gbG9ncy5wdXNoKGl0ZW0pLCBvblByb2dyZXNzOiBpdGVtID0+IHsgZmluYWwgPSBpdGVtOyB9LCBpc0NhbmNlbGxlZDogKCkgPT4gZmFsc2UsIHdhaXQ6IGFzeW5jICgpID0+IHVuZGVmaW5lZCwKICAgIH0sICd0ZXN0LWpvYicpOwogICAgZXhwZWN0KHJlc3VsdC5zdGF0dXMpLnRvQmUoJ2NvbXBsZXRlZCcpOwogICAgZXhwZWN0KHJlc3VsdC5jb21wbGV0ZWQpLnRvQmUoNSk7CiAgICBleHBlY3QocmVzdWx0LnN1Y2Nlc3NlcykudG9CZSg0KTsKICAgIGV4cGVjdChyZXN1bHQuZXJyb3JzKS50b0JlKDEpOwogICAgZXhwZWN0KGZpbmFsPy5pZCkudG9CZSgndGVzdC1qb2InKTsKICAgIGV4cGVjdChsb2dzLnNvbWUobG9nID0+IGxvZy5tZXNzYWdlLmluY2x1ZGVzKCdObyBtZXNzYWdlcyB3aWxsIGJlIHNlbnQnKSkpLnRvQmUodHJ1ZSk7CiAgfSk7CiAgaXQoJ3N0b3BzIHdoZW4gY2FuY2VsbGF0aW9uIGlzIHJlcXVlc3RlZCcsIGFzeW5jICgpID0+IHsKICAgIGxldCBjaGVja3MgPSAwOwogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcnVuU2ltdWxhdGlvbih7IGxhYmVsOiAnVGVzdCcsIHJvdW5kczogMTAsIGludGVydmFsTXM6IDEwMCB9LCB7CiAgICAgIG9uTG9nOiAoKSA9PiB1bmRlZmluZWQsIG9uUHJvZ3Jlc3M6ICgpID0+IHVuZGVmaW5lZCwgaXNDYW5jZWxsZWQ6ICgpID0+IHsgY2hlY2tzICs9IDE7IHJldHVybiBjaGVja3MgPiAxOyB9LCB3YWl0OiBhc3luYyAoKSA9PiB1bmRlZmluZWQsCiAgICB9LCAnc3RvcC1qb2InKTsKICAgIGV4cGVjdChyZXN1bHQuc3RhdHVzKS50b0JlKCdzdG9wcGVkJyk7CiAgICBleHBlY3QocmVzdWx0LmNvbXBsZXRlZCkudG9CZSgxKTsKICB9KTsKICBpdCgndmFsaWRhdGVzIHRoZSBtYXhpbXVtIHJvdW5kcyBhbmQgaW50ZXJ2YWwnLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBjYWxsYmFja3MgPSB7IG9uTG9nOiAoKSA9PiB1bmRlZmluZWQsIG9uUHJvZ3Jlc3M6ICgpID0+IHVuZGVmaW5lZCwgaXNDYW5jZWxsZWQ6ICgpID0+IGZhbHNlLCB3YWl0OiBhc3luYyAoKSA9PiB1bmRlZmluZWQgfTsKICAgIGF3YWl0IGV4cGVjdChydW5TaW11bGF0aW9uKHsgbGFiZWw6ICdCYWQnLCByb3VuZHM6IDEwMSwgaW50ZXJ2YWxNczogMTAwIH0sIGNhbGxiYWNrcykpLnJlamVjdHMudG9UaHJvdygnUm91bmRzIG11c3QgYmUgYmV0d2VlbiAxIGFuZCAxMDAuJyk7CiAgICBhd2FpdCBleHBlY3QocnVuU2ltdWxhdGlvbih7IGxhYmVsOiAnQmFkJywgcm91bmRzOiAxLCBpbnRlcnZhbE1zOiAxIH0sIGNhbGxiYWNrcykpLnJlamVjdHMudG9UaHJvdygnU2ltdWxhdGlvbiBpbnRlcnZhbCBtdXN0IGJlIGF0IGxlYXN0IDEwMCBtcy4nKTsKICB9KTsKfSk7Cg==
+import { runSimulation } from '../../src/engine/bomber';
+import type { DemoLog, JobRecord } from '../../src/engine/types';
+
+describe('runSimulation', () => {
+  it('records simulated success and error outcomes without network use', async () => {
+    const logs: DemoLog[] = []; let final: JobRecord | undefined;
+    const result = await runSimulation({ label: 'Test', rounds: 5, intervalMs: 100 }, {
+      onLog: item => logs.push(item), onProgress: item => { final = item; }, isCancelled: () => false, wait: async () => undefined,
+    }, 'test-job');
+    expect(result.status).toBe('completed');
+    expect(result.completed).toBe(5);
+    expect(result.successes).toBe(4);
+    expect(result.errors).toBe(1);
+    expect(final?.id).toBe('test-job');
+    expect(logs.some(log => log.message.includes('No messages will be sent'))).toBe(true);
+  });
+  it('stops when cancellation is requested', async () => {
+    let checks = 0;
+    const result = await runSimulation({ label: 'Test', rounds: 10, intervalMs: 100 }, {
+      onLog: () => undefined, onProgress: () => undefined, isCancelled: () => { checks += 1; return checks > 1; }, wait: async () => undefined,
+    }, 'stop-job');
+    expect(result.status).toBe('stopped');
+    expect(result.completed).toBe(1);
+  });
+  it('validates the maximum rounds and interval', async () => {
+    const callbacks = { onLog: () => undefined, onProgress: () => undefined, isCancelled: () => false, wait: async () => undefined };
+    await expect(runSimulation({ label: 'Bad', rounds: 101, intervalMs: 100 }, callbacks)).rejects.toThrow('Rounds must be between 1 and 100.');
+    await expect(runSimulation({ label: 'Bad', rounds: 1, intervalMs: 1 }, callbacks)).rejects.toThrow('Simulation interval must be at least 100 ms.');
+  });
+});

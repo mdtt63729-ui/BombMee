@@ -1,1 +1,10 @@
-ZXhwb3J0IGludGVyZmFjZSBIZWFsdGhTbmFwc2hvdCB7CiAgbW9kZTogJ29mZmxpbmUnOwogIG5ldHdvcmtVc2VkOiBmYWxzZTsKICBzdGF0dXM6ICdyZWFkeSc7CiAgY2hlY2tlZEF0OiBudW1iZXI7Cn0KCmV4cG9ydCBmdW5jdGlvbiBnZXRMb2NhbEhlYWx0aChub3cgPSBEYXRlLm5vdygpKTogSGVhbHRoU25hcHNob3QgewogIHJldHVybiB7IG1vZGU6ICdvZmZsaW5lJywgbmV0d29ya1VzZWQ6IGZhbHNlLCBzdGF0dXM6ICdyZWFkeScsIGNoZWNrZWRBdDogbm93IH07Cn0K
+export interface HealthSnapshot {
+  mode: 'offline';
+  networkUsed: false;
+  status: 'ready';
+  checkedAt: number;
+}
+
+export function getLocalHealth(now = Date.now()): HealthSnapshot {
+  return { mode: 'offline', networkUsed: false, status: 'ready', checkedAt: now };
+}

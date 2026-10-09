@@ -1,1 +1,4 @@
-bW9kdWxlLmV4cG9ydHMgPSBmdW5jdGlvbiAoYXBpKSB7CiAgYXBpLmNhY2hlKHRydWUpOwogIHJldHVybiB7IHByZXNldHM6IFsnYmFiZWwtcHJlc2V0LWV4cG8nXSB9Owp9Owo=
+module.exports = function (api) {
+  api.cache(true);
+  return { presets: ['babel-preset-expo'] };
+};

@@ -1,1 +1,22 @@
-bmFtZTogVHlwZWNoZWNrIGFuZCBUZXN0cwpvbjoKICBwdXNoOgogIHB1bGxfcmVxdWVzdDoKICB3b3JrZmxvd19kaXNwYXRjaDoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHJlYWQKam9iczoKICB2ZXJpZnk6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CiAgICAgIC0gdXNlczogYWN0aW9ucy9zZXR1cC1ub2RlQHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5vZGUtdmVyc2lvbjogMjAKICAgICAgICAgIGNhY2hlOiBucG0KICAgICAgLSBuYW1lOiBJbnN0YWxsIGRlcGVuZGVuY2llcwogICAgICAgIHJ1bjogbnBtIGluc3RhbGwgLS1uby1hdWRpdCAtLW5vLWZ1bmQKICAgICAgLSBuYW1lOiBUeXBlU2NyaXB0IGNoZWNrCiAgICAgICAgcnVuOiBucG0gcnVuIHR5cGVjaGVjawogICAgICAtIG5hbWU6IFVuaXQgdGVzdHMKICAgICAgICBydW46IG5wbSB0ZXN0Cg==
+name: Typecheck and Tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: TypeScript check
+        run: npm run typecheck
+      - name: Unit tests
+        run: npm test

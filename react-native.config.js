@@ -1,1 +1,1 @@
-bW9kdWxlLmV4cG9ydHMgPSB7IGFzc2V0czogW10gfTsK
+module.exports = { assets: [] };

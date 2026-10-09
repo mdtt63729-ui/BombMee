@@ -1,1 +1,13 @@
-aW1wb3J0IHsgZm9ybWF0RGVtb01lc3NhZ2UgfSBmcm9tICcuLi8uLi9zcmMvZW5naW5lL3RlbXBsYXRlJzsKCmRlc2NyaWJlKCdmb3JtYXREZW1vTWVzc2FnZScsICgpID0+IHsKICBpdCgnZm9ybWF0cyBhIGxvY2FsLW9ubHkgZGVtbyBldmVudCcsICgpID0+IHsKICAgIGV4cGVjdChmb3JtYXREZW1vTWVzc2FnZSgyLCA4LCAnRGVtbycpKS50b0JlKCdbU0lNVUxBVElPTl0gRGVtbzogZXZlbnQgMi84Jyk7CiAgfSk7CiAgaXQoJ3JlamVjdHMgaW52YWxpZCByb3VuZCB2YWx1ZXMnLCAoKSA9PiB7CiAgICBleHBlY3QoKCkgPT4gZm9ybWF0RGVtb01lc3NhZ2UoMCwgOCwgJ0RlbW8nKSkudG9UaHJvdygnUm91bmQgdmFsdWVzIGFyZSBpbnZhbGlkLicpOwogIH0pOwogIGl0KCdyZWplY3RzIGFuIGVtcHR5IHByb3ZpZGVyIG5hbWUnLCAoKSA9PiB7CiAgICBleHBlY3QoKCkgPT4gZm9ybWF0RGVtb01lc3NhZ2UoMSwgMSwgJyAgJykpLnRvVGhyb3coJ0EgZGVtbyBwcm92aWRlciBuYW1lIGlzIHJlcXVpcmVkLicpOwogIH0pOwp9KTsK
+import { formatDemoMessage } from '../../src/engine/template';
+
+describe('formatDemoMessage', () => {
+  it('formats a local-only demo event', () => {
+    expect(formatDemoMessage(2, 8, 'Demo')).toBe('[SIMULATION] Demo: event 2/8');
+  });
+  it('rejects invalid round values', () => {
+    expect(() => formatDemoMessage(0, 8, 'Demo')).toThrow('Round values are invalid.');
+  });
+  it('rejects an empty provider name', () => {
+    expect(() => formatDemoMessage(1, 1, '  ')).toThrow('A demo provider name is required.');
+  });
+});

@@ -1,1 +1,18 @@
-aW1wb3J0IEFzeW5jU3RvcmFnZSBmcm9tICdAcmVhY3QtbmF0aXZlLWFzeW5jLXN0b3JhZ2UvYXN5bmMtc3RvcmFnZSc7CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVhZEpzb248VD4oa2V5OiBzdHJpbmcsIGZhbGxiYWNrOiBUKTogUHJvbWlzZTxUPiB7CiAgdHJ5IHsKICAgIGNvbnN0IHJhdyA9IGF3YWl0IEFzeW5jU3RvcmFnZS5nZXRJdGVtKGtleSk7CiAgICByZXR1cm4gcmF3ID8gKEpTT04ucGFyc2UocmF3KSBhcyBUKSA6IGZhbGxiYWNrOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbGxiYWNrOwogIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHdyaXRlSnNvbjxUPihrZXk6IHN0cmluZywgdmFsdWU6IFQpOiBQcm9taXNlPHZvaWQ+IHsKICBhd2FpdCBBc3luY1N0b3JhZ2Uuc2V0SXRlbShrZXksIEpTT04uc3RyaW5naWZ5KHZhbHVlKSk7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiByZW1vdmVTdG9yZWRWYWx1ZShrZXk6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogIGF3YWl0IEFzeW5jU3RvcmFnZS5yZW1vdmVJdGVtKGtleSk7Cn0K
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+export async function readJson<T>(key: string, fallback: T): Promise<T> {
+  try {
+    const raw = await AsyncStorage.getItem(key);
+    return raw ? (JSON.parse(raw) as T) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+export async function writeJson<T>(key: string, value: T): Promise<void> {
+  await AsyncStorage.setItem(key, JSON.stringify(value));
+}
+
+export async function removeStoredValue(key: string): Promise<void> {
+  await AsyncStorage.removeItem(key);
+}

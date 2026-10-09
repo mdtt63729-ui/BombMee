@@ -1,1 +1,14 @@
-ewogICJleHBvIjogewogICAgIm5hbWUiOiAiVEJvbWIgTW9iaWxlIFNpbXVsYXRvciIsCiAgICAic2x1ZyI6ICJ0Ym9tYi1tb2JpbGUiLAogICAgInZlcnNpb24iOiAiMS4wLjAiLAogICAgIm9yaWVudGF0aW9uIjogInBvcnRyYWl0IiwKICAgICJ1c2VySW50ZXJmYWNlU3R5bGUiOiAiZGFyayIsCiAgICAic3BsYXNoIjogeyAiYmFja2dyb3VuZENvbG9yIjogIiMwNzA3MGIiIH0sCiAgICAiYW5kcm9pZCI6IHsgInBhY2thZ2UiOiAiYXBwLnRib21iLm1vYmlsZSIsICJhZGFwdGl2ZUljb24iOiB7ICJiYWNrZ3JvdW5kQ29sb3IiOiAiIzA3MDcwYiIgfSB9LAogICAgImlvcyI6IHsgImJ1bmRsZUlkZW50aWZpZXIiOiAiYXBwLnRib21iLm1vYmlsZSIgfSwKICAgICJwbHVnaW5zIjogW10sCiAgICAiZXh0cmEiOiB7ICJvZmZsaW5lU2ltdWxhdG9yT25seSI6IHRydWUgfQogIH0KfQo=
+{
+  "expo": {
+    "name": "TBomb Mobile Simulator",
+    "slug": "tbomb-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": { "backgroundColor": "#07070b" },
+    "android": { "package": "app.tbomb.mobile", "adaptiveIcon": { "backgroundColor": "#07070b" } },
+    "ios": { "bundleIdentifier": "app.tbomb.mobile" },
+    "plugins": [],
+    "extra": { "offlineSimulatorOnly": true }
+  }
+}

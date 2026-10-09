@@ -1,1 +1,1 @@
-ZXhwb3J0IGZ1bmN0aW9uIGNyZWF0ZUlkKHByZWZpeCA9ICdpZCcpOiBzdHJpbmcgeyByZXR1cm4gYCR7cHJlZml4fS0ke0RhdGUubm93KCkudG9TdHJpbmcoMzYpfS0ke01hdGgucmFuZG9tKCkudG9TdHJpbmcoMzYpLnNsaWNlKDIsIDgpfWA7IH0K
+export function createId(prefix = 'id'): string { return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`; }

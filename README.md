@@ -1,1 +1,87 @@
-IyBUQm9tYiBNb2JpbGUg4oCUIE9mZmxpbmUgU2ltdWxhdG9yCgpBIFJlYWN0IE5hdGl2ZSArIEV4cG8gQW5kcm9pZC9pT1MgYXBwIHdpdGggYSBkYXJrIGN5YmVycHVuayB0ZXJtaW5hbCBVSS4gVGhpcyByZXBvc2l0b3J5IGZvbGxvd3MgdGhlIHJlcXVlc3RlZCBgdGJvbWItbW9iaWxlL2Agc291cmNlIGxheW91dCBhbmQgaW5jbHVkZXMgYSBsb2NhbCBzaW11bGF0aW9uIGVuZ2luZSwgaGlzdG9yeS9zZXR0aW5ncyBzdG9yYWdlLCB1bml0IHRlc3RzLCBhbmQgR2l0SHViIEFjdGlvbnMgd29ya2Zsb3dzLgoKPiAqKlNhZmV0eSBib3VuZGFyeToqKiB0aGlzIGJ1aWxkIGlzIGFuIG9mZmxpbmUgVUkgc2ltdWxhdG9yLiBJdCBkb2VzIG5vdCBzZW5kIFNNUywgbWFrZSBjYWxscywgc2VuZCBXaGF0c0FwcCBtZXNzYWdlcywgY29ubmVjdCB0byBleHRlcm5hbCBBUElzLCBvciBhY2NlcHQgcmVjaXBpZW50IHBob25lIG51bWJlcnMuIFRoZSBgc2VuZGVyLnRzYCBtb2R1bGUgb25seSBnZW5lcmF0ZXMgZGV0ZXJtaW5pc3RpYyBtb2NrIG91dGNvbWVzLiBUaGUgcHJvdmlkZXIgcmVnaXN0cnkgb25seSBhY2NlcHRzIGBraW5kOiAibW9jayJgIGVudHJpZXMuCgojIyBGZWF0dXJlcwoKLSBDeWJlcnB1bmsgZGFyayBVSSB3aXRoIGhvdC1waW5rL2N5YW4vZ29sZCBzdGF0dXMgYWNjZW50cwotIEhvbWUsIHNpbXVsYXRpb24gY29uc29sZSwgbG9jYWwgaGlzdG9yeSwgc2V0dGluZ3MsIGFuZCBtb2NrLXJlZ2lzdHJ5IHNjcmVlbnMKLSBTdGFydC9TdG9wIHNpbXVsYXRpb24sIHByb2dyZXNzIHJpbmcsIHN1Y2Nlc3MvZXJyb3IgY291bnRlcnMsIGRpYWdub3N0aWMgbG9ncwotIFBlcnNpc3RlbnQgbG9jYWwgc2V0dGluZ3MgYW5kIHVwIHRvIDEwMCByZWNlbnQgc2ltdWxhdGlvbiByZWNvcmRzCi0gSW5wdXQgdmFsaWRhdGlvbiwgY2FwcGVkIHNpbXVsYXRpb24gcm91bmRzICgx4oCTMTAwKSwgYW5kIG1pbmltdW0gaW50ZXJ2YWwgKDEwMCBtcykKLSBUaHJlZSB3b3JrZmxvd3M6IENJL3R5cGVjaGVjay90ZXN0cywgQW5kcm9pZCBBUEsgYnVpbGQsIHNpZ25pbmcga2V5c3RvcmUgc2V0dXAsIGFuZCBzaWduZWQgcmVsZWFzZSBidWlsZAotIE5vIFNNUyBwZXJtaXNzaW9uLCBubyBuZXR3b3JrIHNlbmRlciwgbm8gQVBJIGtleXMsIG5vIGV4dGVybmFsIGVuZHBvaW50IGNvbmZpZ3VyYXRpb24KCiMjIFJlcXVpcmVtZW50cwoKLSBOb2RlLmpzIDIwIExUUwotIEphdmEgMTcgZm9yIEFuZHJvaWQgYnVpbGRzCi0gQW5kcm9pZCBTREsgaWYgYnVpbGRpbmcgbG9jYWxseTsgR2l0SHViIEFjdGlvbnMgaW5zdGFsbHMvdXNlcyB0aGUgcnVubmVyJ3MgQW5kcm9pZCB0b29saW5nIHRocm91Z2ggRXhwby9HcmFkbGUKCiMjIFJ1biBsb2NhbGx5CgpgYGBiYXNoCm5wbSBpbnN0YWxsCm5wbSBydW4gdHlwZWNoZWNrCm5wbSB0ZXN0Cm5wbSBzdGFydApgYGAKCkZvciBBbmRyb2lkIG5hdGl2ZSBnZW5lcmF0aW9uL2J1aWxkOgoKYGBgYmFzaApucHggZXhwbyBwcmVidWlsZCAtLXBsYXRmb3JtIGFuZHJvaWQgLS1ub24taW50ZXJhY3RpdmUKY2QgYW5kcm9pZAouL2dyYWRsZXcgYXNzZW1ibGVSZWxlYXNlCmBgYAoKRXhwbyBnZW5lcmF0ZXMgdGhlIG5hdGl2ZSBBbmRyb2lkIHByb2plY3QgZnJvbSBgYXBwLmpzb25gOyBgYW5kcm9pZC9SRUFETUUubWRgIGV4cGxhaW5zIHdoeSBnZW5lcmF0ZWQgbmF0aXZlIGZpbGVzIGFyZSBub3QgZHVwbGljYXRlZCBpbiB0aGlzIHNvdXJjZSBhcmNoaXZlLiBPbiBtYWNPUywgZ2VuZXJhdGUgaU9TIG5hdGl2ZSBmaWxlcyB3aXRoIGBucHggZXhwbyBwcmVidWlsZCAtLXBsYXRmb3JtIGlvcyAtLW5vbi1pbnRlcmFjdGl2ZWAuCgojIyBHaXRIdWIgQWN0aW9ucwoKMS4gUHVzaCB0aGUgZm9sZGVyIGNvbnRlbnRzIHRvIGEgR2l0SHViIHJlcG9zaXRvcnkuCjIuIE9wZW4gKipBY3Rpb25zKiogYW5kIHJ1biAqKlR5cGVjaGVjayBhbmQgVGVzdHMqKiBvciAqKkJ1aWxkIEFuZHJvaWQgQVBLKiouCjMuIERvd25sb2FkIHRoZSBBUEsgZnJvbSB0aGUgd29ya2Zsb3cncyBBcnRpZmFjdHMgc2VjdGlvbiBhZnRlciBhIHN1Y2Nlc3NmdWwgcnVuLgo0LiBGb3Igc2lnbmVkIHJlbGVhc2UgYnVpbGRzLCBmaXJzdCBjb25maWd1cmUgdGhlc2UgcmVwb3NpdG9yeSBBY3Rpb25zIHNlY3JldHM6CiAgIC0gYEFORFJPSURfS0VZU1RPUkVfQkFTRTY0YCDigJQgYmFzZTY0LWVuY29kZWQgUEtDUzEyL0pLUyBrZXlzdG9yZQogICAtIGBBTkRST0lEX0tFWVNUT1JFX1BBU1NXT1JEYAogICAtIGBBTkRST0lEX0tFWV9BTElBU2AKICAgLSBgQU5EUk9JRF9LRVlfUEFTU1dPUkRgCjUuIFJ1biAqKkJ1aWxkIFNpZ25lZCBBbmRyb2lkIFJlbGVhc2UqKi4gTmV2ZXIgY29tbWl0IHRoZSBrZXlzdG9yZSBvciBwYXNzd29yZHMgdG8gdGhlIHJlcG9zaXRvcnkuCgpUaGUgc2lnbmluZyBzZXR1cCB3b3JrZmxvdyBpcyBhIHNhZmUgc2V0dXAgY2hlY2sgYW5kIGRvZXMgbm90IGV4cG9ydCBwcml2YXRlIGtleSBtYXRlcmlhbC4gR2VuZXJhdGUgdGhlIGtleXN0b3JlIGluIGEgc2VjdXJlIGVudmlyb25tZW50LCBlbmNvZGUgaXQgd2l0aCBiYXNlNjQsIGFuZCBhZGQgdGhlIGZvdXIgdmFsdWVzIGRpcmVjdGx5IHVuZGVyIHJlcG9zaXRvcnkgU2V0dGluZ3Mg4oaSIFNlY3JldHMgYW5kIHZhcmlhYmxlcyDihpIgQWN0aW9ucy4gS2VlcCBhIHNlY3VyZSBiYWNrdXAgb2YgdGhlIGtleXN0b3JlOyBsb3NpbmcgaXQgY2FuIHByZXZlbnQgZnV0dXJlIHVwZGF0ZXMgZnJvbSB1c2luZyB0aGUgc2FtZSBzaWduaW5nIGlkZW50aXR5LgoKIyMgU3RydWN0dXJlCgpgYGB0ZXh0CnRib21iLW1vYmlsZS8K4pSc4pSA4pSAIGFuZHJvaWQvICAgICAgICAgICAgICAgICAgICAgIyBOYXRpdmUgcHJvamVjdCBnZW5lcmF0ZWQgYnkgRXhwbyBwcmVidWlsZArilJzilIDilIAgaW9zLyAgICAgICAgICAgICAgICAgICAgICAgICAjIE5hdGl2ZSBwcm9qZWN0IGdlbmVyYXRlZCBieSBFeHBvIHByZWJ1aWxkIG9uIG1hY09TCuKUnOKUgOKUgCBhc3NldHMvYXBpZGF0YS5qc29uICAgICAgICAgICMgT2ZmbGluZSBtb2NrIG1ldGFkYXRhIG9ubHkK4pSc4pSA4pSAIHNyYy8K4pSCICAg4pSc4pSA4pSAIGVuZ2luZS8gICAgICAgICAgICAgICAgICAjIFR5cGVzLCBtb2NrIHJlZ2lzdHJ5LCB0ZW1wbGF0ZXMsIHNpbXVsYXRpb24sIGxpbWl0cywgaGVhbHRoCuKUgiAgIOKUnOKUgOKUgCBkYXRhLyAgICAgICAgICAgICAgICAgICAgIyBBc3luY1N0b3JhZ2UgaGVscGVycyBhbmQgaGlzdG9yeQrilIIgICDilJzilIDilIAgc3RhdGUvICAgICAgICAgICAgICAgICAgICMgWnVzdGFuZCBqb2Ivc2V0dGluZ3Mgc3RvcmVzCuKUgiAgIOKUnOKUgOKUgCBuYXRpdmUvICAgICAgICAgICAgICAgICAgIyBFeHBsaWNpdGx5IGRpc2FibGVkIGJhY2tncm91bmQtc2VydmljZSBzdHViCuKUgiAgIOKUnOKUgOKUgCBuYXZpZ2F0aW9uLyAgICAgICAgICAgICAgIyBSZWFjdCBOYXZpZ2F0aW9uIHN0YWNrL3RhYnMK4pSCICAg4pSc4pSA4pSAIHNjcmVlbnMvICAgICAgICAgICAgICAgICAjIEhvbWUsIEpvYiwgSGlzdG9yeSwgU2V0dGluZ3MsIEFwaUxpc3QK4pSCICAg4pSc4pSA4pSAIGNvbXBvbmVudHMvICAgICAgICAgICAgICAjIElucHV0cywgc3RlcHBlciwgcHJvZ3Jlc3MsIHN0YXRzLCBsb2dzCuKUgiAgIOKUnOKUgOKUgCB0aGVtZS8gICAgICAgICAgICAgICAgICAgIyBDeWJlcnB1bmsgY29sb3JzIGFuZCBzcGFjaW5nCuKUgiAgIOKUnOKUgOKUgCB1dGlscy8gICAgICAgICAgICAgICAgICAgIyBJRHMgYW5kIGZvcm1hdHRpbmcK4pSCICAg4pSU4pSA4pSAIEFwcC50c3gK4pSc4pSA4pSAIF9fdGVzdHNfXy9lbmdpbmUvICAgICAgICAgICAgICMgVW5pdCB0ZXN0cyBmb3Igc2ltdWxhdGlvbi90ZW1wbGF0ZS9zZW5kZXIK4pSc4pSA4pSAIC5naXRodWIvd29ya2Zsb3dzLyAgICAgICAgICAgICMgQ0ksIEFQSyBidWlsZCwga2V5c3RvcmUgc2V0dXAsIHNpZ25lZCBidWlsZArilJzilIDilIAgQXBwLnRzeArilJzilIDilIAgYXBwLmpzb24K4pSc4pSA4pSAIHBhY2thZ2UuanNvbgrilJTilIDilIAgUkVBRE1FLm1kCmBgYAoKIyMgVHJvdWJsZXNob290aW5nCgotIElmIE1ldHJvIG9yIEV4cG8gaGFzIHN0YWxlIGNhY2hlOiBgbnB4IGV4cG8gc3RhcnQgLS1jbGVhcmAuCi0gSWYgbmF0aXZlIGdlbmVyYXRlZCBmaWxlcyBhcmUgb3V0IG9mIHN5bmM6IGRlbGV0ZSBnZW5lcmF0ZWQgYGFuZHJvaWQvYCAobm90IGl0cyBSRUFETUUgaWYgeW91IG5lZWQgaXQpLCB0aGVuIHJ1biBgbnB4IGV4cG8gcHJlYnVpbGQgLS1wbGF0Zm9ybSBhbmRyb2lkIC0tY2xlYW5gLgotIElmIHR5cGVjaGVjayBmYWlscyBhZnRlciBjaGFuZ2luZyBkZXBlbmRlbmNpZXM6IHJ1biBgbnBtIGluc3RhbGxgIGFuZCBgbnBtIHJ1biB0eXBlY2hlY2tgLgotIElmIGEgc2lnbmVkIGJ1aWxkIHJlcG9ydHMgbWlzc2luZyBzaWduaW5nIHNlY3JldHMsIGNvbmZpZ3VyZSBhbGwgZm91ciBzZWNyZXQgbmFtZXMgZXhhY3RseSBhcyBsaXN0ZWQgYWJvdmUuCg==
+# TBomb Mobile — Offline Simulator
+
+A React Native + Expo Android/iOS app with a dark cyberpunk terminal UI. This repository follows the requested `tbomb-mobile/` source layout and includes a local simulation engine, history/settings storage, unit tests, and GitHub Actions workflows.
+
+> **Safety boundary:** this build is an offline UI simulator. It does not send SMS, make calls, send WhatsApp messages, connect to external APIs, or accept recipient phone numbers. The `sender.ts` module only generates deterministic mock outcomes. The provider registry only accepts `kind: "mock"` entries.
+
+## Features
+
+- Cyberpunk dark UI with hot-pink/cyan/gold status accents
+- Home, simulation console, local history, settings, and mock-registry screens
+- Start/Stop simulation, progress ring, success/error counters, diagnostic logs
+- Persistent local settings and up to 100 recent simulation records
+- Input validation, capped simulation rounds (1–100), and minimum interval (100 ms)
+- Three workflows: CI/typecheck/tests, Android APK build, signing keystore setup, and signed release build
+- No SMS permission, no network sender, no API keys, no external endpoint configuration
+
+## Requirements
+
+- Node.js 20 LTS
+- Java 17 for Android builds
+- Android SDK if building locally; GitHub Actions installs/uses the runner's Android tooling through Expo/Gradle
+
+## Run locally
+
+```bash
+npm install
+npm run typecheck
+npm test
+npm start
+```
+
+For Android native generation/build:
+
+```bash
+npx expo prebuild --platform android --non-interactive
+cd android
+./gradlew assembleRelease
+```
+
+Expo generates the native Android project from `app.json`; `android/README.md` explains why generated native files are not duplicated in this source archive. On macOS, generate iOS native files with `npx expo prebuild --platform ios --non-interactive`.
+
+## GitHub Actions
+
+1. Push the folder contents to a GitHub repository.
+2. Open **Actions** and run **Typecheck and Tests** or **Build Android APK**.
+3. Download the APK from the workflow's Artifacts section after a successful run.
+4. For signed release builds, first configure these repository Actions secrets:
+   - `ANDROID_KEYSTORE_BASE64` — base64-encoded PKCS12/JKS keystore
+   - `ANDROID_KEYSTORE_PASSWORD`
+   - `ANDROID_KEY_ALIAS`
+   - `ANDROID_KEY_PASSWORD`
+5. Run **Build Signed Android Release**. Never commit the keystore or passwords to the repository.
+
+The signing setup workflow is a safe setup check and does not export private key material. Generate the keystore in a secure environment, encode it with base64, and add the four values directly under repository Settings → Secrets and variables → Actions. Keep a secure backup of the keystore; losing it can prevent future updates from using the same signing identity.
+
+## Structure
+
+```text
+tbomb-mobile/
+├── android/                     # Native project generated by Expo prebuild
+├── ios/                         # Native project generated by Expo prebuild on macOS
+├── assets/apidata.json          # Offline mock metadata only
+├── src/
+│   ├── engine/                  # Types, mock registry, templates, simulation, limits, health
+│   ├── data/                    # AsyncStorage helpers and history
+│   ├── state/                   # Zustand job/settings stores
+│   ├── native/                  # Explicitly disabled background-service stub
+│   ├── navigation/              # React Navigation stack/tabs
+│   ├── screens/                 # Home, Job, History, Settings, ApiList
+│   ├── components/              # Inputs, stepper, progress, stats, logs
+│   ├── theme/                   # Cyberpunk colors and spacing
+│   ├── utils/                   # IDs and formatting
+│   └── App.tsx
+├── __tests__/engine/             # Unit tests for simulation/template/sender
+├── .github/workflows/            # CI, APK build, keystore setup, signed build
+├── App.tsx
+├── app.json
+├── package.json
+└── README.md
+```
+
+## Troubleshooting
+
+- If Metro or Expo has stale cache: `npx expo start --clear`.
+- If native generated files are out of sync: delete generated `android/` (not its README if you need it), then run `npx expo prebuild --platform android --clean`.
+- If typecheck fails after changing dependencies: run `npm install` and `npm run typecheck`.
+- If a signed build reports missing signing secrets, configure all four secret names exactly as listed above.

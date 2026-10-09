@@ -1,1 +1,9 @@
-aW1wb3J0IHsgY3JlYXRlIH0gZnJvbSAnenVzdGFuZCc7CmltcG9ydCB0eXBlIHsgRGVtb0xvZywgSm9iUmVjb3JkIH0gZnJvbSAnLi4vZW5naW5lL3R5cGVzJzsKaW50ZXJmYWNlIEpvYlN0YXRlIHsgY3VycmVudD86IEpvYlJlY29yZDsgbG9nczogRGVtb0xvZ1tdOyBydW5uaW5nOiBib29sZWFuOyBjYW5jZWxsZWQ6IGJvb2xlYW47IHNldEN1cnJlbnQ6IChqb2I6IEpvYlJlY29yZCkgPT4gdm9pZDsgYWRkTG9nOiAobG9nOiBEZW1vTG9nKSA9PiB2b2lkOyBzZXRSdW5uaW5nOiAodjogYm9vbGVhbikgPT4gdm9pZDsgY2FuY2VsOiAoKSA9PiB2b2lkOyByZXNldENhbmNlbDogKCkgPT4gdm9pZDsgY2xlYXJMb2dzOiAoKSA9PiB2b2lkOyB9CmV4cG9ydCBjb25zdCB1c2VKb2JTdG9yZSA9IGNyZWF0ZTxKb2JTdGF0ZT4oc2V0ID0+ICh7CiAgY3VycmVudDogdW5kZWZpbmVkLCBsb2dzOiBbXSwgcnVubmluZzogZmFsc2UsIGNhbmNlbGxlZDogZmFsc2UsCiAgc2V0Q3VycmVudDogY3VycmVudCA9PiBzZXQoeyBjdXJyZW50IH0pLAogIGFkZExvZzogbG9nID0+IHNldChzdGF0ZSA9PiAoeyBsb2dzOiBbbG9nLCAuLi5zdGF0ZS5sb2dzXS5zbGljZSgwLCAzMDApIH0pKSwKICBzZXRSdW5uaW5nOiBydW5uaW5nID0+IHNldCh7IHJ1bm5pbmcgfSksIGNhbmNlbDogKCkgPT4gc2V0KHsgY2FuY2VsbGVkOiB0cnVlIH0pLCByZXNldENhbmNlbDogKCkgPT4gc2V0KHsgY2FuY2VsbGVkOiBmYWxzZSB9KSwgY2xlYXJMb2dzOiAoKSA9PiBzZXQoeyBsb2dzOiBbXSB9KSwKfSkpOwo=
+import { create } from 'zustand';
+import type { DemoLog, JobRecord } from '../engine/types';
+interface JobState { current?: JobRecord; logs: DemoLog[]; running: boolean; cancelled: boolean; setCurrent: (job: JobRecord) => void; addLog: (log: DemoLog) => void; setRunning: (v: boolean) => void; cancel: () => void; resetCancel: () => void; clearLogs: () => void; }
+export const useJobStore = create<JobState>(set => ({
+  current: undefined, logs: [], running: false, cancelled: false,
+  setCurrent: current => set({ current }),
+  addLog: log => set(state => ({ logs: [log, ...state.logs].slice(0, 300) })),
+  setRunning: running => set({ running }), cancel: () => set({ cancelled: true }), resetCancel: () => set({ cancelled: false }), clearLogs: () => set({ logs: [] }),
+}));

@@ -1,1 +1,5 @@
-IyBBbmRyb2lkIG5hdGl2ZSBwcm9qZWN0CgpUaGlzIHByb2plY3QgdXNlcyBFeHBvIHByZWJ1aWxkIHNvIG5hdGl2ZSBBbmRyb2lkIGZpbGVzIGFyZSBnZW5lcmF0ZWQgcmVwcm9kdWNpYmx5IGZyb20gYGFwcC5qc29uYCBhbmQgYHBhY2thZ2UuanNvbmAuCgpSdW4gYG5wbSBpbnN0YWxsYCB0aGVuIGBucHggZXhwbyBwcmVidWlsZCAtLXBsYXRmb3JtIGFuZHJvaWRgIHRvIGdlbmVyYXRlIHRoaXMgZGlyZWN0b3J5LiBUaGUgR2l0SHViIEFjdGlvbnMgd29ya2Zsb3dzIGRvIHRoaXMgYXV0b21hdGljYWxseSBiZWZvcmUgR3JhZGxlIGJ1aWxkcy4gR2VuZXJhdGVkIG5hdGl2ZSBmaWxlcyBhcmUgaW50ZW50aW9uYWxseSBub3QgaGFuZC1tYWludGFpbmVkIGluIHRoaXMgc291cmNlIGFyY2hpdmUuCg==
+# Android native project
+
+This project uses Expo prebuild so native Android files are generated reproducibly from `app.json` and `package.json`.
+
+Run `npm install` then `npx expo prebuild --platform android` to generate this directory. The GitHub Actions workflows do this automatically before Gradle builds. Generated native files are intentionally not hand-maintained in this source archive.

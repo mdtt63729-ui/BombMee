@@ -1,1 +1,9 @@
-ewogICJzY2hlbWFWZXJzaW9uIjogMSwKICAibW9kZSI6ICJvZmZsaW5lLWRlbW8iLAogICJkZXNjcmlwdGlvbiI6ICJMb2NhbCBleGFtcGxlcyBmb3IgVUkgcHJldmlld3Mgb25seS4gTm8gcmVhbCBlbmRwb2ludHMgYXJlIGNvbmZpZ3VyZWQuIiwKICAicHJvdmlkZXJzIjogWwogICAgeyAiaWQiOiAiZGVtby1vayIsICJuYW1lIjogIkxvY2FsIHN1Y2Nlc3MgZXhhbXBsZSIsICJlbmFibGVkIjogdHJ1ZSwgImtpbmQiOiAibW9jayIgfSwKICAgIHsgImlkIjogImRlbW8tZXJyb3IiLCAibmFtZSI6ICJMb2NhbCBlcnJvciBleGFtcGxlIiwgImVuYWJsZWQiOiB0cnVlLCAia2luZCI6ICJtb2NrIiB9CiAgXQp9Cg==
+{
+  "schemaVersion": 1,
+  "mode": "offline-demo",
+  "description": "Local examples for UI previews only. No real endpoints are configured.",
+  "providers": [
+    { "id": "demo-ok", "name": "Local success example", "enabled": true, "kind": "mock" },
+    { "id": "demo-error", "name": "Local error example", "enabled": true, "kind": "mock" }
+  ]
+}

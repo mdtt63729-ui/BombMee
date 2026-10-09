@@ -1,1 +1,1 @@
-ZXhwb3J0IHsgZGVmYXVsdCB9IGZyb20gJy4vc3JjL0FwcCc7Cg==
+export { default } from './src/App';

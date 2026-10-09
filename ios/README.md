@@ -1,1 +1,3 @@
-IyBpT1MgbmF0aXZlIHByb2plY3QKClRoaXMgUmVhY3QgTmF0aXZlIGFwcCBpcyBjb25maWd1cmVkIGZvciBpT1MgdGhyb3VnaCBFeHBvIHByZWJ1aWxkLiBHZW5lcmF0ZSBuYXRpdmUgZmlsZXMgb24gbWFjT1Mgd2l0aCBgbnBtIGluc3RhbGxgIGFuZCBgbnB4IGV4cG8gcHJlYnVpbGQgLS1wbGF0Zm9ybSBpb3NgLiBBbmRyb2lkIEFQSyBDSSBydW5zIG9uIFVidW50dTsgaU9TIGJ1aWxkcyByZXF1aXJlIG1hY09TL1hjb2RlLgo=
+# iOS native project
+
+This React Native app is configured for iOS through Expo prebuild. Generate native files on macOS with `npm install` and `npx expo prebuild --platform ios`. Android APK CI runs on Ubuntu; iOS builds require macOS/Xcode.

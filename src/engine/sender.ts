@@ -1,1 +1,8 @@
-aW1wb3J0IHR5cGUgeyBEZW1vT3V0Y29tZSB9IGZyb20gJy4vdHlwZXMnOwoKLyoqIERldGVybWluaXN0aWMsIG9mZmxpbmUtb25seSBtb2NrIHNlbmRlci4gSXQgbmV2ZXIgcGVyZm9ybXMgbmV0d29yayBvciBTTVMgYWN0aW9ucy4gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHNlbmRNb2NrRXZlbnQocm91bmQ6IG51bWJlcik6IFByb21pc2U8RGVtb091dGNvbWU+IHsKICBpZiAoIU51bWJlci5pc0ludGVnZXIocm91bmQpIHx8IHJvdW5kIDwgMSkgdGhyb3cgbmV3IEVycm9yKCdSb3VuZCBtdXN0IGJlIGEgcG9zaXRpdmUgaW50ZWdlci4nKTsKICAvLyBQcmVkaWN0YWJsZSBwYXR0ZXJuIG1ha2VzIGJvdGggc3VjY2VzcyBhbmQgZXJyb3IgVUkgc3RhdGVzIGVhc3kgdG8gdGVzdC4KICByZXR1cm4gcm91bmQgJSA1ID09PSAwID8gJ2Vycm9yJyA6ICdzdWNjZXNzJzsKfQo=
+import type { DemoOutcome } from './types';
+
+/** Deterministic, offline-only mock sender. It never performs network or SMS actions. */
+export async function sendMockEvent(round: number): Promise<DemoOutcome> {
+  if (!Number.isInteger(round) || round < 1) throw new Error('Round must be a positive integer.');
+  // Predictable pattern makes both success and error UI states easy to test.
+  return round % 5 === 0 ? 'error' : 'success';
+}

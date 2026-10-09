@@ -1,1 +1,2 @@
-Y29uc3QgeyBnZXREZWZhdWx0Q29uZmlnIH0gPSByZXF1aXJlKCdleHBvL21ldHJvLWNvbmZpZycpOwptb2R1bGUuZXhwb3J0cyA9IGdldERlZmF1bHRDb25maWcoX19kaXJuYW1lKTsK
+const { getDefaultConfig } = require('expo/metro-config');
+module.exports = getDefaultConfig(__dirname);

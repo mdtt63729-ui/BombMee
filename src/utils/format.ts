@@ -1,1 +1,2 @@
-ZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdFRpbWUodGltZXN0YW1wOiBudW1iZXIpOiBzdHJpbmcgeyByZXR1cm4gbmV3IERhdGUodGltZXN0YW1wKS50b0xvY2FsZVRpbWVTdHJpbmcoW10sIHsgaG91cjogJzItZGlnaXQnLCBtaW51dGU6ICcyLWRpZ2l0Jywgc2Vjb25kOiAnMi1kaWdpdCcgfSk7IH0KZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdER1cmF0aW9uKHN0YXJ0OiBudW1iZXIsIGVuZCA9IERhdGUubm93KCkpOiBzdHJpbmcgeyByZXR1cm4gYCR7TWF0aC5tYXgoMCwgKGVuZCAtIHN0YXJ0KSAvIDEwMDApLnRvRml4ZWQoMSl9c2A7IH0K
+export function formatTime(timestamp: number): string { return new Date(timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' }); }
+export function formatDuration(start: number, end = Date.now()): string { return `${Math.max(0, (end - start) / 1000).toFixed(1)}s`; }

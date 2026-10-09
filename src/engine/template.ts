@@ -1,1 +1,9 @@
-LyoqIEZvcm1hdHMgc2FmZSBsb2NhbCBzaW11bGF0b3IgbWVzc2FnZXM7IG5vIHBob25lIG51bWJlcnMgb3IgbWVzc2FnZSBkZWxpdmVyeS4gKi8KZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdERlbW9NZXNzYWdlKHJvdW5kOiBudW1iZXIsIHRvdGFsOiBudW1iZXIsIHByb3ZpZGVyTmFtZTogc3RyaW5nKTogc3RyaW5nIHsKICBpZiAoIU51bWJlci5pc0ludGVnZXIocm91bmQpIHx8ICFOdW1iZXIuaXNJbnRlZ2VyKHRvdGFsKSB8fCByb3VuZCA8IDEgfHwgdG90YWwgPCByb3VuZCkgewogICAgdGhyb3cgbmV3IEVycm9yKCdSb3VuZCB2YWx1ZXMgYXJlIGludmFsaWQuJyk7CiAgfQogIGNvbnN0IGNsZWFuTmFtZSA9IHByb3ZpZGVyTmFtZS50cmltKCk7CiAgaWYgKCFjbGVhbk5hbWUpIHRocm93IG5ldyBFcnJvcignQSBkZW1vIHByb3ZpZGVyIG5hbWUgaXMgcmVxdWlyZWQuJyk7CiAgcmV0dXJuIGBbU0lNVUxBVElPTl0gJHtjbGVhbk5hbWV9OiBldmVudCAke3JvdW5kfS8ke3RvdGFsfWA7Cn0K
+/** Formats safe local simulator messages; no phone numbers or message delivery. */
+export function formatDemoMessage(round: number, total: number, providerName: string): string {
+  if (!Number.isInteger(round) || !Number.isInteger(total) || round < 1 || total < round) {
+    throw new Error('Round values are invalid.');
+  }
+  const cleanName = providerName.trim();
+  if (!cleanName) throw new Error('A demo provider name is required.');
+  return `[SIMULATION] ${cleanName}: event ${round}/${total}`;
+}

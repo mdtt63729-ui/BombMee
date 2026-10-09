@@ -1,1 +1,5 @@
-LyoqIENsYW1wIHVzZXItY29uZmlndXJhYmxlIHNpbXVsYXRpb24gY29uY3VycmVuY3kgdG8gYSBzbWFsbCBzYWZlIGxvY2FsIGxpbWl0LiAqLwpleHBvcnQgZnVuY3Rpb24gY2xhbXBDb25jdXJyZW5jeSh2YWx1ZTogbnVtYmVyKTogbnVtYmVyIHsKICBpZiAoIU51bWJlci5pc0Zpbml0ZSh2YWx1ZSkpIHJldHVybiAxOwogIHJldHVybiBNYXRoLm1heCgxLCBNYXRoLm1pbigzLCBNYXRoLmZsb29yKHZhbHVlKSkpOwp9Cg==
+/** Clamp user-configurable simulation concurrency to a small safe local limit. */
+export function clampConcurrency(value: number): number {
+  if (!Number.isFinite(value)) return 1;
+  return Math.max(1, Math.min(3, Math.floor(value)));
+}

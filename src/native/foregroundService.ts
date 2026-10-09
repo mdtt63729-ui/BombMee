@@ -1,1 +1,6 @@
-LyoqIEJhY2tncm91bmQgc2VydmljZSBpcyBpbnRlbnRpb25hbGx5IG5vdCBpbXBsZW1lbnRlZDogdGhpcyBvZmZsaW5lIGRlbW8gcnVucyBvbmx5IHdoaWxlIG9wZW4uICovCmV4cG9ydCBjb25zdCBmb3JlZ3JvdW5kU2VydmljZSA9IHsKICBpc1N1cHBvcnRlZDogZmFsc2UsCiAgYXN5bmMgc3RhcnQoKTogUHJvbWlzZTx2b2lkPiB7IHRocm93IG5ldyBFcnJvcignQmFja2dyb3VuZCBleGVjdXRpb24gaXMgZGlzYWJsZWQgaW4gdGhlIG9mZmxpbmUgc2ltdWxhdG9yLicpOyB9LAogIGFzeW5jIHN0b3AoKTogUHJvbWlzZTx2b2lkPiB7IHJldHVybjsgfSwKfTsK
+/** Background service is intentionally not implemented: this offline demo runs only while open. */
+export const foregroundService = {
+  isSupported: false,
+  async start(): Promise<void> { throw new Error('Background execution is disabled in the offline simulator.'); },
+  async stop(): Promise<void> { return; },
+};

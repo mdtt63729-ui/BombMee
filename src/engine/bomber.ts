@@ -1,1 +1,51 @@
-aW1wb3J0IHsgZm9ybWF0RGVtb01lc3NhZ2UgfSBmcm9tICcuL3RlbXBsYXRlJzsKaW1wb3J0IHsgc2VuZE1vY2tFdmVudCB9IGZyb20gJy4vc2VuZGVyJzsKaW1wb3J0IHR5cGUgeyBEZW1vSm9iSW5wdXQsIERlbW9Mb2csIEpvYlJlY29yZCB9IGZyb20gJy4vdHlwZXMnOwoKZXhwb3J0IGludGVyZmFjZSBTaW11bGF0aW9uQ2FsbGJhY2tzIHsKICBvbkxvZzogKGxvZzogRGVtb0xvZykgPT4gdm9pZDsKICBvblByb2dyZXNzOiAoam9iOiBKb2JSZWNvcmQpID0+IHZvaWQ7CiAgaXNDYW5jZWxsZWQ6ICgpID0+IGJvb2xlYW47CiAgd2FpdD86IChtczogbnVtYmVyKSA9PiBQcm9taXNlPHZvaWQ+Owp9Cgpjb25zdCBkZWZhdWx0V2FpdCA9IChtczogbnVtYmVyKSA9PiBuZXcgUHJvbWlzZTx2b2lkPihyZXNvbHZlID0+IHNldFRpbWVvdXQocmVzb2x2ZSwgbXMpKTsKCi8qKiBMb2NhbCBzaW11bGF0aW9uIGVuZ2luZSBvbmx5LiBJdCBpbnRlbnRpb25hbGx5IGhhcyBubyB0YXJnZXQtbnVtYmVyIG9yIG5ldHdvcmsgc2VuZGVyLiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcnVuU2ltdWxhdGlvbihpbnB1dDogRGVtb0pvYklucHV0LCBjYWxsYmFja3M6IFNpbXVsYXRpb25DYWxsYmFja3MsIGlkID0gYGpvYi0ke0RhdGUubm93KCl9YCk6IFByb21pc2U8Sm9iUmVjb3JkPiB7CiAgaWYgKCFOdW1iZXIuaXNJbnRlZ2VyKGlucHV0LnJvdW5kcykgfHwgaW5wdXQucm91bmRzIDwgMSB8fCBpbnB1dC5yb3VuZHMgPiAxMDApIHsKICAgIHRocm93IG5ldyBFcnJvcignUm91bmRzIG11c3QgYmUgYmV0d2VlbiAxIGFuZCAxMDAuJyk7CiAgfQogIGlmICghTnVtYmVyLmlzRmluaXRlKGlucHV0LmludGVydmFsTXMpIHx8IGlucHV0LmludGVydmFsTXMgPCAxMDApIHsKICAgIHRocm93IG5ldyBFcnJvcignU2ltdWxhdGlvbiBpbnRlcnZhbCBtdXN0IGJlIGF0IGxlYXN0IDEwMCBtcy4nKTsKICB9CiAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICBjb25zdCBqb2I6IEpvYlJlY29yZCA9IHsgaWQsIGxhYmVsOiBpbnB1dC5sYWJlbC50cmltKCkgfHwgJ09mZmxpbmUgZGVtbycsIHJvdW5kczogaW5wdXQucm91bmRzLCBjb21wbGV0ZWQ6IDAsIHN1Y2Nlc3NlczogMCwgZXJyb3JzOiAwLCBzdGF0dXM6ICdydW5uaW5nJywgc3RhcnRlZEF0OiBub3cgfTsKICBjb25zdCBsb2cgPSAobGV2ZWw6IERlbW9Mb2dbJ2xldmVsJ10sIG1lc3NhZ2U6IHN0cmluZykgPT4gY2FsbGJhY2tzLm9uTG9nKHsgaWQ6IGAke2lkfS0ke2pvYi5jb21wbGV0ZWR9LSR7RGF0ZS5ub3coKX1gLCBhdDogRGF0ZS5ub3coKSwgbGV2ZWwsIG1lc3NhZ2UgfSk7CiAgbG9nKCdpbmZvJywgJ09mZmxpbmUgc2ltdWxhdGlvbiBzdGFydGVkLiBObyBtZXNzYWdlcyB3aWxsIGJlIHNlbnQuJyk7CiAgY29uc3Qgd2FpdCA9IGNhbGxiYWNrcy53YWl0ID8/IGRlZmF1bHRXYWl0OwogIGZvciAobGV0IHJvdW5kID0gMTsgcm91bmQgPD0gaW5wdXQucm91bmRzOyByb3VuZCArPSAxKSB7CiAgICBpZiAoY2FsbGJhY2tzLmlzQ2FuY2VsbGVkKCkpIHsKICAgICAgam9iLnN0YXR1cyA9ICdzdG9wcGVkJzsKICAgICAgbG9nKCd3YXJuaW5nJywgJ1NpbXVsYXRpb24gc3RvcHBlZCBieSB1c2VyLicpOwogICAgICBicmVhazsKICAgIH0KICAgIGxvZygnaW5mbycsIGZvcm1hdERlbW9NZXNzYWdlKHJvdW5kLCBpbnB1dC5yb3VuZHMsIGpvYi5sYWJlbCkpOwogICAgY29uc3Qgb3V0Y29tZSA9IGF3YWl0IHNlbmRNb2NrRXZlbnQocm91bmQpOwogICAgam9iLmNvbXBsZXRlZCArPSAxOwogICAgaWYgKG91dGNvbWUgPT09ICdzdWNjZXNzJykgewogICAgICBqb2Iuc3VjY2Vzc2VzICs9IDE7CiAgICAgIGxvZygnc3VjY2VzcycsICdNb2NrIGV2ZW50IGNvbXBsZXRlZCBzdWNjZXNzZnVsbHkuJyk7CiAgICB9IGVsc2UgewogICAgICBqb2IuZXJyb3JzICs9IDE7CiAgICAgIGxvZygnZXJyb3InLCAnTW9jayBlcnJvciBldmVudCBnZW5lcmF0ZWQgZm9yIFVJIHRlc3RpbmcuJyk7CiAgICB9CiAgICBjYWxsYmFja3Mub25Qcm9ncmVzcyh7IC4uLmpvYiB9KTsKICAgIGlmIChyb3VuZCA8IGlucHV0LnJvdW5kcyAmJiAhY2FsbGJhY2tzLmlzQ2FuY2VsbGVkKCkpIGF3YWl0IHdhaXQoaW5wdXQuaW50ZXJ2YWxNcyk7CiAgfQogIGlmIChqb2Iuc3RhdHVzID09PSAncnVubmluZycpIGpvYi5zdGF0dXMgPSAnY29tcGxldGVkJzsKICBqb2IuZW5kZWRBdCA9IERhdGUubm93KCk7CiAgY2FsbGJhY2tzLm9uUHJvZ3Jlc3MoeyAuLi5qb2IgfSk7CiAgbG9nKCdpbmZvJywgYFNpbXVsYXRpb24gZmluaXNoZWQ6ICR7am9iLnN1Y2Nlc3Nlc30gc3VjY2VzcywgJHtqb2IuZXJyb3JzfSBlcnJvci5gKTsKICByZXR1cm4gam9iOwp9Cg==
+import { formatDemoMessage } from './template';
+import { sendMockEvent } from './sender';
+import type { DemoJobInput, DemoLog, JobRecord } from './types';
+
+export interface SimulationCallbacks {
+  onLog: (log: DemoLog) => void;
+  onProgress: (job: JobRecord) => void;
+  isCancelled: () => boolean;
+  wait?: (ms: number) => Promise<void>;
+}
+
+const defaultWait = (ms: number) => new Promise<void>(resolve => setTimeout(resolve, ms));
+
+/** Local simulation engine only. It intentionally has no target-number or network sender. */
+export async function runSimulation(input: DemoJobInput, callbacks: SimulationCallbacks, id = `job-${Date.now()}`): Promise<JobRecord> {
+  if (!Number.isInteger(input.rounds) || input.rounds < 1 || input.rounds > 100) {
+    throw new Error('Rounds must be between 1 and 100.');
+  }
+  if (!Number.isFinite(input.intervalMs) || input.intervalMs < 100) {
+    throw new Error('Simulation interval must be at least 100 ms.');
+  }
+  const now = Date.now();
+  const job: JobRecord = { id, label: input.label.trim() || 'Offline demo', rounds: input.rounds, completed: 0, successes: 0, errors: 0, status: 'running', startedAt: now };
+  const log = (level: DemoLog['level'], message: string) => callbacks.onLog({ id: `${id}-${job.completed}-${Date.now()}`, at: Date.now(), level, message });
+  log('info', 'Offline simulation started. No messages will be sent.');
+  const wait = callbacks.wait ?? defaultWait;
+  for (let round = 1; round <= input.rounds; round += 1) {
+    if (callbacks.isCancelled()) {
+      job.status = 'stopped';
+      log('warning', 'Simulation stopped by user.');
+      break;
+    }
+    log('info', formatDemoMessage(round, input.rounds, job.label));
+    const outcome = await sendMockEvent(round);
+    job.completed += 1;
+    if (outcome === 'success') {
+      job.successes += 1;
+      log('success', 'Mock event completed successfully.');
+    } else {
+      job.errors += 1;
+      log('error', 'Mock error event generated for UI testing.');
+    }
+    callbacks.onProgress({ ...job });
+    if (round < input.rounds && !callbacks.isCancelled()) await wait(input.intervalMs);
+  }
+  if (job.status === 'running') job.status = 'completed';
+  job.endedAt = Date.now();
+  callbacks.onProgress({ ...job });
+  log('info', `Simulation finished: ${job.successes} success, ${job.errors} error.`);
+  return job;
+}

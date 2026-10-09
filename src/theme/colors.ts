@@ -1,1 +1,1 @@
-ZXhwb3J0IGNvbnN0IGNvbG9ycyA9IHsgYmc6ICcjMDcwNzBCJywgcGFuZWw6ICcjMTExMjFBJywgcGFuZWxBbHQ6ICcjMTkxQTI1JywgYm9yZGVyOiAnIzI5MkEzOCcsIHRleHQ6ICcjRjdGM0Y2JywgbXV0ZWQ6ICcjOUI5QUE4JywgcGluazogJyNGRjJFNjMnLCBjeWFuOiAnIzU2RERGNScsIGdvbGQ6ICcjRkZDODU3JywgZ3JlZW46ICcjNUVFNkE4JywgcmVkOiAnI0ZGNjU3QScgfSBhcyBjb25zdDsK
+export const colors = { bg: '#07070B', panel: '#11121A', panelAlt: '#191A25', border: '#292A38', text: '#F7F3F6', muted: '#9B9AA8', pink: '#FF2E63', cyan: '#56DDF5', gold: '#FFC857', green: '#5EE6A8', red: '#FF657A' } as const;

@@ -1,1 +1,11 @@
-bm9kZV9tb2R1bGVzLwouZXhwby8KYW5kcm9pZC8uZ3JhZGxlLwphbmRyb2lkL2FwcC9idWlsZC8KYW5kcm9pZC9idWlsZC8KaW9zL1BvZHMvCmlvcy9idWlsZC8KLmVudgoqLmtleXN0b3JlCiouamtzCioucDEyCg==
+node_modules/
+.expo/
+android/.gradle/
+android/app/build/
+android/build/
+ios/Pods/
+ios/build/
+.env
+*.keystore
+*.jks
+*.p12
