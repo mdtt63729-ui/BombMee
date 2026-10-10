@@ -1,14 +1,13 @@
 {
   "expo": {
-    "name": "TBomb Mobile Simulator",
-    "slug": "tbomb-mobile",
+    "name": "BMB·Me",
+    "slug": "bmb-me",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "dark",
-    "splash": { "backgroundColor": "#07070b" },
-    "android": { "package": "app.tbomb.mobile", "adaptiveIcon": { "backgroundColor": "#07070b" } },
-    "ios": { "bundleIdentifier": "app.tbomb.mobile" },
-    "plugins": [],
-    "extra": { "offlineSimulatorOnly": true }
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "android": { "package": "com.bmbme.app", "adaptiveIcon": { "backgroundColor": "#182522" } },
+    "ios": { "bundleIdentifier": "com.bmbme.app", "supportsTablet": true },
+    "web": { "bundler": "metro", "name": "BMB·Me" }
   }
 }

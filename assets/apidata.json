@@ -1,9 +1,0 @@
-{
-  "schemaVersion": 1,
-  "mode": "offline-demo",
-  "description": "Local examples for UI previews only. No real endpoints are configured.",
-  "providers": [
-    { "id": "demo-ok", "name": "Local success example", "enabled": true, "kind": "mock" },
-    { "id": "demo-error", "name": "Local error example", "enabled": true, "kind": "mock" }
-  ]
-}

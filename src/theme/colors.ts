@@ -1,1 +1,0 @@
-export const colors = { bg: '#07070B', panel: '#11121A', panelAlt: '#191A25', border: '#292A38', text: '#F7F3F6', muted: '#9B9AA8', pink: '#FF2E63', cyan: '#56DDF5', gold: '#FFC857', green: '#5EE6A8', red: '#FF657A' } as const;

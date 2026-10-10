@@ -1,7 +1,0 @@
-import React from 'react';
-import { View, Text, Pressable, StyleSheet } from 'react-native';
-import { colors } from '../theme/colors';
-export function RoundsStepper({ value, onChange }: { value: number; onChange: (n: number) => void }) {
-  return <View style={styles.wrap}><Text style={styles.label}>SIMULATION EVENTS</Text><View style={styles.row}><Pressable accessibilityLabel="Decrease events" onPress={() => onChange(Math.max(1, value - 1))} style={styles.button}><Text style={styles.sign}>−</Text></Pressable><Text style={styles.value}>{value}</Text><Pressable accessibilityLabel="Increase events" onPress={() => onChange(Math.min(100, value + 1))} style={styles.button}><Text style={styles.sign}>+</Text></Pressable></View><Text style={styles.hint}>1–100 local mock events; nothing is sent.</Text></View>;
-}
-const styles = StyleSheet.create({ wrap: { gap: 9 }, label: { color: colors.muted, fontSize: 11, fontWeight: '700', letterSpacing: 1 }, row: { flexDirection: 'row', alignItems: 'center', gap: 18 }, button: { width: 42, height: 42, borderRadius: 12, backgroundColor: colors.panelAlt, borderColor: colors.border, borderWidth: 1, alignItems: 'center', justifyContent: 'center' }, sign: { color: colors.pink, fontSize: 24, fontWeight: '700' }, value: { color: colors.text, fontSize: 22, fontWeight: '900', minWidth: 35, textAlign: 'center' }, hint: { color: colors.muted, fontSize: 10 } });

@@ -1,11 +1,6 @@
 node_modules/
+dist/
 .expo/
-android/.gradle/
-android/app/build/
-android/build/
-ios/Pods/
-ios/build/
-.env
-*.keystore
-*.jks
-*.p12
+.expo-shared/
+*.log
+.DS_Store
