@@ -32,11 +32,21 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Generate Android project
         run: npx expo prebuild --platform android --non-interactive
+      - name: Limit APK to arm64 Android devices
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('android/app/build.gradle')
+          s = p.read_text()
+          marker = '    splits {\n        abi {\n            enable true\n            reset()\n            include "arm64-v8a"\n            universalApk false\n        }\n    }\n'
+          s = s.replace('android {\n', 'android {\n' + marker, 1)
+          p.write_text(s)
+          PY
       - name: Build debug APK
         run: cd android && ./gradlew assembleDebug --no-daemon
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: BMB-Me-debug-apk
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          path: android/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
