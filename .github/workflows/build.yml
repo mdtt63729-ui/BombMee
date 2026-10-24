@@ -1,52 +1,27 @@
-name: Build Android APK
+name: Build Bomb Me APK
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
+  push:
+    branches: [ "main", "master" ]
 permissions:
   contents: read
 jobs:
-  build-apk:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
+      - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Java 17
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - name: Create temporary Expo build configuration
-        run: |
-          cat > package.json <<'JSON'
-          {"name":"bmb-me","version":"1.0.0","private":true,"main":"node_modules/expo/AppEntry.js","dependencies":{"@react-native-async-storage/async-storage":"2.1.2","expo":"~53.0.0","react":"19.0.0","react-native":"0.79.2"}}
-          JSON
-          cat > app.json <<'JSON'
-          {"expo":{"name":"BMB Me","slug":"bmb-me","version":"1.0.0","orientation":"portrait","userInterfaceStyle":"light","android":{"package":"com.bmbme.app"}}}
-          JSON
-      - name: Install dependencies
-        run: npm install --no-audit --no-fund
-      - name: Generate Android project
-        run: npx expo prebuild --platform android --non-interactive
-      - name: Limit APK to arm64 Android devices
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          p = Path('android/app/build.gradle')
-          s = p.read_text()
-          marker = '    splits {\n        abi {\n            enable true\n            reset()\n            include "arm64-v8a"\n            universalApk false\n        }\n    }\n'
-          s = s.replace('android {\n', 'android {\n' + marker, 1)
-          p.write_text(s)
-          PY
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
       - name: Build debug APK
-        run: cd android && ./gradlew assembleDebug --no-daemon
+        run: gradle assembleDebug
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: BMB-Me-debug-apk
-          path: android/app/build/outputs/apk/debug/*.apk
-          if-no-files-found: error
+          name: BombMe-debug-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
